@@ -18,16 +18,16 @@ public class HolaMundoServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
 
-        out.print("<!DOCTYPE html>");
-        out.print("<html>");
-        out.print("     <head>");
-        out.print("         <meta charset=\" UTF-8\">");
-        out.print("         <title>Hola Mundo servlet</title>");
-        out.print("     </head>");
-        out.print("     <body>");
-        out.print("         <h1>Hola mundo servlet</h1>");
-        out.print("     </body>");
-        out.print("</html>");
+        out.println("<!DOCTYPE html>");
+        out.println("<html>");
+        out.println("     <head>");
+        out.println("         <meta charset=\" UTF-8\">");
+        out.println("         <title>Hola Mundo servlet</title>");
+        out.println("     </head>");
+        out.println("     <body>");
+        out.println("         <h1>Hola mundo servlet</h1>");
+        out.println("     </body>");
+        out.println("</html>");
         out.close();
     }
 }
